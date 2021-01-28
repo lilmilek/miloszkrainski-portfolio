@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Nunito:wght@400;600;700;800;900&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+
+nav {
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    width: 100vw;
+    background-color: white;
+    position: sticky;
+}
+
+nav .logo {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+nav .nav-items {
+    display: flex;
+    list-style-type: none;
+}
+
+nav .nav-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-left: 80px;
+}
+df
